@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog on Nasir Nesirli</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blog on Nasir Nesirli</description>
+    <image>
+      <title>Nasir Nesirli</title>
+      <url>http://localhost:1313/images/og-image.jpg</url>
+      <link>http://localhost:1313/images/og-image.jpg</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building in Public: Starting Quanta From Zero</title>
+      <link>http://localhost:1313/blog/building-in-public/</link>
+      <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/building-in-public/</guid>
+      <description>I&amp;#39;m building Quanta, a clinical laboratory ERP, and I&amp;#39;m going to document the entire journey publicly. Here&amp;#39;s why and what comes next.</description>
+    </item>
+    <item>
+      <title>The Problem with Lab Software: Why Clinical Labs Deserve Better</title>
+      <link>http://localhost:1313/blog/problem-with-lab-software/</link>
+      <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/problem-with-lab-software/</guid>
+      <description>Clinical laboratories are using software that was designed in the 1990s, and it shows. Here&amp;#39;s what&amp;#39;s wrong and why it matters for patient care.</description>
+    </item>
+    <item>
+      <title>Why I&#39;m Building Quanta: A Clinical Lab ERP That Actually Understands Labs</title>
+      <link>http://localhost:1313/blog/why-building-quanta/</link>
+      <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/why-building-quanta/</guid>
+      <description>After years managing a clinical microbiology lab, I got tired of fighting with software that clearly wasn&amp;#39;t built by anyone who&amp;#39;d ever worked in a lab.</description>
+    </item>
+  </channel>
+</rss>

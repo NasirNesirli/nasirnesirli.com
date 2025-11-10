@@ -1,0 +1,98 @@
+baseURL: "https://nasirnesirli.com/"
+languageCode: "en-us"
+title: "Nasir Nesirli"
+theme: "PaperMod"
+
+params:
+  description: "Lab Operations Expert | Bioinformatics | Founder of Quanta"
+  author: "Nasir Nesirli"
+  
+  # Footer customization
+  footer:
+    text: ""
+
+  # Profile mode for homepage
+  profileMode:
+    enabled: true
+    title: "Nasir Nesirli"
+    subtitle: "Building Better Clinical Laboratories"
+    imageUrl: "images/profile.jpeg"
+    imageTitle: "Nasir Nesirli"
+    buttons:
+      - name: Blog
+        url: "/blog"
+      - name: About
+        url: "/about"
+      - name: Contact
+        url: "/contact"
+
+  # Social icons
+  socialIcons:
+    - name: "email"
+      url: "mailto:hello@nasirnesirli.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/nasirnesirli/"
+    - name: "github"
+      url: "https://github.com/NasirNesirli"
+    - name: "rss"
+      url: "/index.xml"
+
+  # Enable features
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+
+  # Table of contents
+  ShowToc: true
+  TocOpen: false
+
+  # Homepage settings
+  homeInfoParams:
+    Title: "Welcome"
+    Content: "Lab operations expert and bioinformatics researcher building Quanta, a clinical laboratory ERP with ML-powered AMR surveillance."
+
+  # SEO
+  keywords: ["clinical laboratory", "lab operations", "bioinformatics", "AMR surveillance", "laboratory ERP", "Quanta"]
+  images: ["/images/og-image.jpg"]
+
+# Menu
+menu:
+  main:
+    - name: About
+      url: /about/
+      weight: 10
+    - name: Blog
+      url: /blog/
+      weight: 20
+    - name: Projects
+      url: /projects/
+      weight: 30
+    - name: Courses
+      url: https://courses.nasirnesirli.com
+      weight: 35
+    - name: Contact
+      url: /contact/
+      weight: 40
+
+# Taxonomies
+taxonomies:
+  tag: tags
+  category: categories
+
+# Output formats
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# Markdown settings
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: monokai
