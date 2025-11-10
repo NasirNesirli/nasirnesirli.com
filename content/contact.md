@@ -12,7 +12,7 @@ I'm always interested in connecting with lab managers, clinical microbiologists,
 
 ### Contact Form
 
-<form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+<form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/contact/success/">
   <p style="display: none;">
     <label>Don't fill this out: <input name="bot-field" /></label>
   </p>
