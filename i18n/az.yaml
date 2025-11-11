@@ -1,0 +1,33 @@
+- id: prev_page
+  translation: "Əvvəlki"
+
+- id: next_page
+  translation: "Növbəti"
+
+- id: read_time
+  translation:
+    one : "1 dəq"
+    other: "{{ .Count }} dəq"
+
+- id: words
+  translation:
+    one : "söz"
+    other: "{{ .Count }} söz"
+
+- id: toc
+  translation: "Mündəricat"
+
+- id: translations
+  translation: "Tərcümələr"
+
+- id: home
+  translation: "Ana səhifə"
+
+- id: edit_post
+  translation: "Redaktə et"
+
+- id: code_copy
+  translation: "köçür"
+
+- id: code_copied
+  translation: "köçürüldü!"

@@ -1,30 +1,121 @@
 baseURL: "https://nasirnesirli.com/"
-languageCode: "en-us"
-title: "Nasir Nesirli"
+defaultContentLanguage: "az"
+defaultContentLanguageInSubdir: true
 theme: "PaperMod"
 
+languages:
+  az:
+    languageCode: "az"
+    languageName: "AZ"
+    title: "Nasir Nəsirli"
+    weight: 1
+    contentDir: "content"
+    params:
+      description: "Kliniki Laboratoriya Mütəxəssisi | Bioinformatika | Quanta & Genolab"
+      author: "Nasir Nəsirli"
+      ShowPostNavLinks: true
+      profileMode:
+        enabled: true
+        title: "Nasir Nəsirli"
+        subtitle: "Klinik Laboratoriya və Mikrobiologiya | Quanta Tech | Bioinformatika"
+        imageUrl: "/images/profile.jpeg"
+        imageTitle: "Nasir Nəsirli"
+        buttons:
+          - name: Bloq
+            url: "/az/blog"
+          - name: Haqqımda
+            url: "/az/about"
+          - name: Əlaqə
+            url: "/az/contact"
+      homeInfoParams:
+        Title: "Xoş gəlmisiniz"
+        Content: "Laboratoriya mütəxəssisi və bioinformatika tədqiqatçısı, ML əsaslı AMR nəzarəti olan klinik laboratoriya ERP sistemi."
+      keywords:
+        [
+          "klinik laboratoriya",
+          "laboratoriya əməliyyatları",
+          "bioinformatika",
+          "AMR nəzarəti",
+          "laboratoriya ERP",
+          "Quanta",
+          "Genolab",
+        ]
+    menu:
+      main:
+        - name: Haqqımda
+          url: /az/about/
+          weight: 10
+        - name: Bloq
+          url: /az/blog/
+          weight: 20
+        - name: Layihələr
+          url: /az/projects/
+          weight: 30
+        - name: Kurslar
+          url: https://courses.nasirnesirli.com
+          weight: 35
+        - name: Əlaqə
+          url: /az/contact/
+          weight: 40
+
+  en:
+    languageCode: "en"
+    languageName: "EN"
+    title: "Nasir Nesirli"
+    weight: 2
+    contentDir: "content/en"
+    params:
+      description: "Lab Operations Expert | Bioinformatics | Founder of Quanta & Genolab"
+      author: "Nasir Nesirli"
+      ShowPostNavLinks: true
+      profileMode:
+        enabled: true
+        title: "Nasir Nesirli"
+        subtitle: "Clinical Laboratory & Microbiology | Quanta Tech | Bioinformatics"
+        imageUrl: "/images/profile.jpeg"
+        imageTitle: "Nasir Nesirli"
+        buttons:
+          - name: Blog
+            url: "/en/blog"
+          - name: About
+            url: "/en/about"
+          - name: Contact
+            url: "/en/contact"
+      homeInfoParams:
+        Title: "Welcome"
+        Content: "Lab operations expert and bioinformatics researcher building Quanta & Genolab, a clinical laboratory ERP with ML-powered AMR surveillance."
+      keywords:
+        [
+          "clinical laboratory",
+          "lab operations",
+          "bioinformatics",
+          "AMR surveillance",
+          "laboratory ERP",
+          "Quanta",
+          "Genolab",
+        ]
+    menu:
+      main:
+        - name: About
+          url: /en/about/
+          weight: 10
+        - name: Blog
+          url: /en/blog/
+          weight: 20
+        - name: Projects
+          url: /en/projects/
+          weight: 30
+        - name: Courses
+          url: https://courses.nasirnesirli.com
+          weight: 35
+        - name: Contact
+          url: /en/contact/
+          weight: 40
+
 params:
-  description: "Lab Operations Expert | Bioinformatics | Founder of Quanta"
-  author: "Nasir Nesirli"
-  
   # Footer customization
   footer:
     text: ""
-
-  # Profile mode for homepage
-  profileMode:
-    enabled: true
-    title: "Nasir Nesirli"
-    subtitle: "Building Better Clinical Laboratories"
-    imageUrl: "/images/profile.jpeg"
-    imageTitle: "Nasir Nesirli"
-    buttons:
-      - name: Blog
-        url: "/blog"
-      - name: About
-        url: "/about"
-      - name: Contact
-        url: "/contact"
 
   # Social icons
   socialIcons:
@@ -34,6 +125,8 @@ params:
       url: "https://www.linkedin.com/in/nasirnesirli/"
     - name: "github"
       url: "https://github.com/NasirNesirli"
+    - name: "orcid"
+      url: "https://orcid.org/0009-0005-3038-7781"
     - name: "rss"
       url: "/index.xml"
 
@@ -41,41 +134,21 @@ params:
   ShowReadingTime: true
   ShowShareButtons: false
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: true
+
+  # Comments system
+  cusdis:
+    enable: true
+    appId: "e8a3bc41-bc36-47bf-b241-81f85223dadf"
 
   # Table of contents
   ShowToc: true
   TocOpen: false
 
-  # Homepage settings
-  homeInfoParams:
-    Title: "Welcome"
-    Content: "Lab operations expert and bioinformatics researcher building Quanta, a clinical laboratory ERP with ML-powered AMR surveillance."
-
   # SEO
-  keywords: ["clinical laboratory", "lab operations", "bioinformatics", "AMR surveillance", "laboratory ERP", "Quanta"]
   images: ["/images/og-image.jpg"]
-
-# Menu
-menu:
-  main:
-    - name: About
-      url: /about/
-      weight: 10
-    - name: Blog
-      url: /blog/
-      weight: 20
-    - name: Projects
-      url: /projects/
-      weight: 30
-    - name: Courses
-      url: https://courses.nasirnesirli.com
-      weight: 35
-    - name: Contact
-      url: /contact/
-      weight: 40
 
 # Taxonomies
 taxonomies:
@@ -94,5 +167,16 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+      hardWraps: false
+    parser:
+      attribute:
+        block: true
+        title: true
+      autoHeadingID: true
+    extensions:
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
   highlight:
     style: monokai

@@ -1,15 +1,19 @@
 ---
-title: "Message Sent"
-description: "Thank you for reaching out! Your message has been sent successfully."
+title: "Mesaj Göndərildi"
+description: "Mənimlə əlaqə saxladığınız üçün təşəkkürlər! Mesajınız uğurla göndərildi."
+build:
+  list: false
+sitemap:
+  disable: true
 ---
 
-## Thanks for reaching out!
+## Əlaqə saxladığınız üçün təşəkkürlər!
 
-Your message has been sent successfully. I'll get back to you soon.
+Mesajınız uğurla göndərildi. Tezliklə sizə cavab verəcəyəm.
 
-In the meantime, feel free to:
-- Check out the [latest blog posts](/blog/)
-- Learn more about [Quanta and my other projects](/projects/)
-- Follow along with my work via [RSS feed](/index.xml)
+Bu vaxt ərzində:
+- [Ən son blog yazılarını](/blog/) oxuya bilərsiniz
+- [Quanta və digər layihələrim](/projects/) haqqında daha çox öyrənə bilərsiniz
+- [RSS feed](/index.xml) vasitəsilə işimi izləyə bilərsiniz
 
-[← Back to Contact](/contact/)
+[← Əlaqə səhifəsinə qayıt](/contact/)

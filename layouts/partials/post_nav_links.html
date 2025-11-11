@@ -1,0 +1,47 @@
+{{- if or (eq .Type "blog") (hasPrefix .RelPermalink "/en/blog") }}
+{{- $allPages := site.RegularPages }}
+
+{{- $blogPages := slice }}
+{{- range $allPages }}
+  {{- if hasPrefix $.RelPermalink "/en" }}
+    {{- if hasPrefix .RelPermalink "/en/blog" }}
+      {{- $blogPages = $blogPages | append . }}
+    {{- end }}
+  {{- else }}
+    {{- if eq .Type "blog" }}
+      {{- $blogPages = $blogPages | append . }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+{{- if gt (len $blogPages) 1 }}
+{{- $currentIndex := 0 }}
+{{- range $i, $page := $blogPages }}
+  {{- if eq $page.RelPermalink $.RelPermalink }}
+    {{- $currentIndex = $i }}
+  {{- end }}
+{{- end }}
+
+<nav class="paginav">
+  {{- $prevIndex := sub $currentIndex 1 }}
+  {{- if ge $prevIndex 0 }}
+  {{- $prevPage := index $blogPages $prevIndex }}
+  <a class="prev" href="{{ $prevPage.Permalink }}">
+    <span class="title">« {{- if hasPrefix .RelPermalink "/en" -}}Previous{{- else -}}Əvvəlki{{- end -}}</span>
+    <br>
+    <span>{{ $prevPage.Title }}</span>
+  </a>
+  {{- end }}
+
+  {{- $nextIndex := add $currentIndex 1 }}
+  {{- if lt $nextIndex (len $blogPages) }}
+  {{- $nextPage := index $blogPages $nextIndex }}
+  <a class="next" href="{{ $nextPage.Permalink }}">
+    <span class="title">{{- if hasPrefix .RelPermalink "/en" -}}Next{{- else -}}Növbəti{{- end -}} »</span>
+    <br>
+    <span>{{ $nextPage.Title }}</span>
+  </a>
+  {{- end }}
+</nav>
+{{- end }}
+{{- end }}

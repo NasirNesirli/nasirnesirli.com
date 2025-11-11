@@ -1,8 +1,8 @@
 ---
-title: "Nasir Nesirli"
-description: "Lab Operations Expert | Bioinformatics | Founder of Quanta - Building Better Clinical Laboratories"
+title: "Nasir Nəsirli"
+description: "Klinik Laboratoriya Mütəxəssisi | Quanta Tech Təsisçisi | Bioinformatik - Quanta Tech və Bioinformatika ilə Daha Yaxşı Klinik Laboratoriyalar Quraq"
 ---
 
-Lab operations expert and bioinformatics researcher with an MSc in Bioinformatics and extensive clinical laboratory management experience. Currently building Quanta, a specialized ERP system for clinical laboratories with ML-powered antimicrobial resistance surveillance.
+**Klinik laboratoriya idarəetməsi və Frappe ekosistemi expertı.** 7+ illik laboratoriya təcrübəsi ilə müəssisələrə ERPNext, HRMS, LMS və Insights həlləri təqdim edirəm.
 
-Combining hands-on laboratory operations expertise with modern bioinformatics and machine learning to help clinical labs operate more efficiently while advancing AMR surveillance capabilities.
+**Quanta Tech** təsisçisi olaraq xüsusilə reagent istehsal-distribusiya şirkətləri və klinik laboratoriyalar üçün rəqəmsal transformasiya həlləri yaradıram. **Genolab** layihəsi ilə laboratoriya sektorunda ML əsaslı AMR nəzarəti inkişaf etdirirəm.

@@ -1,0 +1,80 @@
+{{- if .Site.Params.cusdis.enable }}
+<div class="comments-section">
+  <h3 class="comments-title">
+    {{- if hasPrefix .RelPermalink "/en" -}}
+      💬 Comments
+    {{- else -}}
+      💬 Şərhlər
+    {{- end -}}
+  </h3>
+  
+  <div id="cusdis_thread"
+    data-host="https://cusdis.com"
+    data-app-id="{{ .Site.Params.cusdis.appId }}"
+    data-page-id="{{ .RelPermalink }}"
+    data-page-url="{{ .Permalink }}"
+    data-page-title="{{ .Title }}"
+    {{- if hasPrefix .RelPermalink "/en" -}}
+    data-lang="en"
+    {{- end -}}
+  ></div>
+  <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+  
+  <style>
+    .comments-section {
+      margin-top: 3rem;
+      padding: 2rem 0;
+      border-top: 1px solid var(--border);
+    }
+    
+    .comments-title {
+      color: var(--primary);
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    
+    /* Cusdis styling to match PaperMod theme */
+    #cusdis_thread,
+    #cusdis_thread *,
+    iframe[src*="cusdis"] {
+      font-family: inherit !important;
+    }
+    
+    /* Force no scrolling - multiple selectors */
+    #cusdis_thread,
+    #cusdis_thread iframe,
+    #cusdis_thread .cusdis-container,
+    iframe[src*="cusdis"],
+    [id*="cusdis"],
+    .cusdis-iframe {
+      overflow: visible !important;
+      max-height: none !important;
+      height: auto !important;
+      min-height: 400px !important;
+      border: none !important;
+    }
+    
+    /* Force iframe to expand */
+    #cusdis_thread iframe {
+      width: 100% !important;
+      height: 600px !important;
+      min-height: 400px !important;
+      max-height: none !important;
+      overflow: visible !important;
+    }
+    
+    /* Force iframe content styling */
+    iframe[src*="cusdis"] {
+      border: none !important;
+      width: 100% !important;
+    }
+  </style>
+  
+  {{- if not (hasPrefix .RelPermalink "/en") }}
+  <script src="/js/cusdis-az.js"></script>
+  {{- end }}
+  
+</div>
+{{- end }}

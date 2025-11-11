@@ -1,4 +1,4 @@
 ---
-title: "Blog"
-description: "Thoughts on clinical laboratory operations, bioinformatics, building Quanta, and the intersection of technology and healthcare"
+title: "Bloq"
+description: "Klinik laboratoriya idarəetməsi, Quanta Tech layihələri, Frappe ekosistemi həlləri və laboratoriya sektorunda rəqəmsal transformasiya haqqında fikirlərim və təcrübələrimi paylaşdığım məqalələr."
 ---
