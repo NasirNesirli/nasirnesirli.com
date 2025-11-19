@@ -1,8 +1,15 @@
 ---
-title: "Nasir Nasirli"
-description: "Clinical Laboratory Specialist | Quanta Tech Founder | Bioinformatist - Let's Build Better Clinical Laboratories with Quanta Tech & Bioinformatics"
+title: "Nasir Nesirli - Computational Microbiologist & AMR Genomics Expert"
+description: "Expert in computational microbiology, AMR genomics, and machine learning. 10+ years clinical microbiology experience. Specializing in pathogen classification, Nextflow pipelines, and AI-driven diagnostics."
 ---
 
-**Clinical laboratory management and Frappe ecosystem expert.** With 7+ years of laboratory experience, I provide ERPNext, HRMS, LMS and Insights solutions to enterprises.
+**Computational Microbiology & Bioinformatics Engineering**
 
-As **Quanta Tech** founder, I create digital transformation solutions especially for reagent manufacturing-distribution companies and clinical laboratories. Through the **Genolab** project, I develop ML-based AMR monitoring solutions for the laboratory sector.
+I work at the intersection of clinical microbiology, genomics, and machine learning, with a focus on antimicrobial resistance (AMR) and pathogen genomics.
+
+My background spans:
+- 10+ years building and leading clinical microbiology & diagnostic labs
+- Master's in Bioinformatics from the University of Birmingham  
+- Hands-on experience with NGS analysis, AMR gene detection, and ML-based prediction models
+
+I build advanced genomic data science tools and AI-driven AMR prediction models, creating pipelines that connect real-world microbiology with modern computational methods.

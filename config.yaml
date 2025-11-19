@@ -11,13 +11,13 @@ languages:
     weight: 1
     contentDir: "content"
     params:
-      description: "Kliniki Laboratoriya Mütəxəssisi | Bioinformatika | Quanta & Genolab"
+      description: "Azərbaycanda AMR genomika və hesablama mikrobiologiyası mütəxəssisi. Bioinformatika, maşın öyrənmə və klinik diaqnostika sahələrində 10+ il təcrübə. Nextflow, ML və genomik analiz."
       author: "Nasir Nəsirli"
       ShowPostNavLinks: true
       profileMode:
         enabled: true
         title: "Nasir Nəsirli"
-        subtitle: "Klinik Laboratoriya və Mikrobiologiya | Quanta Tech | Bioinformatika"
+        subtitle: "Klinik Mikrobiologiya | Bioinformatika | AMR və Genomik ML"
         imageUrl: "/images/profile.jpeg"
         imageTitle: "Nasir Nəsirli"
         buttons:
@@ -29,16 +29,19 @@ languages:
             url: "/az/contact"
       homeInfoParams:
         Title: "Xoş gəlmisiniz"
-        Content: "Laboratoriya mütəxəssisi və bioinformatika tədqiqatçısı, ML əsaslı AMR nəzarəti olan klinik laboratoriya ERP sistemi."
+        Content: "Antimikrob müqavimət və klinik mikrobiologiya üçün maşın öyrənmə və genomik alətlər yaradıram."
       keywords:
         [
-          "klinik laboratoriya",
-          "laboratoriya əməliyyatları",
-          "bioinformatika",
-          "AMR nəzarəti",
-          "laboratoriya ERP",
-          "Quanta",
-          "Genolab",
+          "klinik mikrobiologiya azərbaycan",
+          "bioinformatika mütəxəssisi",
+          "AMR antimikrob müqavimət",
+          "genomik analiz nextflow",
+          "maşın öyrənmə mikrobiologiya",
+          "patogen təsnifatı ML",
+          "klinik diaqnostika AI",
+          "birmingham bioinformatika",
+          "laboratoriya avtomatlaşdırma",
+          "NGS sequencing analiz"
         ]
     menu:
       main:
@@ -65,13 +68,13 @@ languages:
     weight: 2
     contentDir: "content/en"
     params:
-      description: "Lab Operations Expert | Bioinformatics | Founder of Quanta & Genolab"
+      description: "Computational microbiologist & bioinformatics engineer specializing in AMR genomics, ML prediction models, and clinical diagnostics. 10+ years experience in clinical microbiology and genomic data science."
       author: "Nasir Nesirli"
       ShowPostNavLinks: true
       profileMode:
         enabled: true
         title: "Nasir Nesirli"
-        subtitle: "Clinical Laboratory & Microbiology | Quanta Tech | Bioinformatics"
+        subtitle: "Clinical Microbiology | Bioinformatics | AMR & Genomic ML"
         imageUrl: "/images/profile.jpeg"
         imageTitle: "Nasir Nesirli"
         buttons:
@@ -83,16 +86,21 @@ languages:
             url: "/en/contact"
       homeInfoParams:
         Title: "Welcome"
-        Content: "Lab operations expert and bioinformatics researcher building Quanta & Genolab, a clinical laboratory ERP with ML-powered AMR surveillance."
+        Content: "I build machine learning and genomic tools for antimicrobial resistance and clinical microbiology."
       keywords:
         [
-          "clinical laboratory",
-          "lab operations",
-          "bioinformatics",
-          "AMR surveillance",
-          "laboratory ERP",
-          "Quanta",
-          "Genolab",
+          "computational microbiology expert",
+          "AMR genomics specialist",
+          "bioinformatics engineer",
+          "machine learning microbiology",
+          "pathogen classification ML",
+          "clinical diagnostics AI",
+          "nextflow pipeline development",
+          "antimicrobial resistance prediction",
+          "genomic data science",
+          "DNABERT2 transformer models",
+          "birmingham bioinformatics",
+          "clinical laboratory automation"
         ]
     menu:
       main:
@@ -116,19 +124,26 @@ params:
   # Footer customization
   footer:
     text: ""
+  
+  # Assets configuration
+  assets:
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-96x96.png"
+    favicon32x32: "favicon-96x96.png"
+    apple_touch_icon: "apple-touch-icon.png"
 
   # Social icons
   socialIcons:
     - name: "email"
-      url: "mailto:hello@nasirnesirli.com"
+      url: "mailto:nasir.nesirli@gmail.com"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/nasirnesirli/"
     - name: "github"
       url: "https://github.com/NasirNesirli"
     - name: "orcid"
       url: "https://orcid.org/0009-0005-3038-7781"
-    - name: "rss"
-      url: "/index.xml"
+    - name: "cv"
+      url: "https://docs.google.com/document/d/1hQe_XT2gL93tVWDnD69N9Y4KvFFZxavmcwlfpC3Si30/export?format=pdf"
 
   # Enable features
   ShowReadingTime: true

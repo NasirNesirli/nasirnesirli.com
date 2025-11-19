@@ -1,40 +1,11 @@
 ---
-title: "Contact"
-description: "Contact Nasir Nasirli for Quanta Tech solutions, Frappe implementation and laboratory digitalization"
+title: "Contact Me - AMR Genomics Collaborations"
+description: "Connect with me for computational microbiology collaborations, AMR genomics research projects, machine learning partnerships, and bioinformatics consulting opportunities."
 ---
 
-Are you looking for a reliable partner for your enterprise's digital transformation journey? Would you like to discuss Frappe ecosystem (ERPNext, HRMS, LMS, Insights) solutions, specialized laboratory systems, or business management solutions?
+I'm open to collaborations, research projects, and remote opportunities in computational microbiology, AMR genomics, and machine learning.
 
-As Quanta Tech, we provide comprehensive business management solutions to enterprises and have particular experience with reagent manufacturing-distribution companies and clinical laboratories.
-
-## How We Can Help
-
-### Frappe Ecosystem Solutions
-- **ERPNext**: Complete business management (finance, inventory, sales, HR)
-- **HRMS**: Human resources and payroll systems
-- **LMS**: Corporate training platforms
-- **Insights**: Business analytics
-
-### Installation, Implementation and Support
-- Business analysis and system design
-- Data migration and integration
-- User training and change management
-- 24/7 technical support
-
-### Sectors We Specialize In
-- Reagent manufacturing and distribution companies
-- Clinical laboratories and medical institutions
-- General business solutions (all industries)
-
-## Get In Touch
-
-### Business Inquiries
-[sales@quanta.az](mailto:sales@quanta.az)
-
-### Personal Contact
-[hello@nasirnesirli.com](mailto:hello@nasirnesirli.com)
-
-### Contact Form
+## Contact Form
 
 <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/en/contact/success/">
   <p style="display: none;">
@@ -64,33 +35,10 @@ As Quanta Tech, we provide comprehensive business management solutions to enterp
   <button type="submit" style="background-color: #007acc; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 4px; cursor: pointer; font-size: 1rem;">Send Message</button>
 </form>
 
-## Social Networks and Information
+## Connect
 
-- **Quanta Tech**: [quanta.az](https://quanta.az)
+- **Email**: [nasir.nesirli@gmail.com](mailto:nasir.nesirli@gmail.com)
 - **LinkedIn**: [linkedin.com/in/nasirnesirli](https://www.linkedin.com/in/nasirnesirli/)
 - **GitHub**: [github.com/NasirNesirli](https://github.com/NasirNesirli)
-- **Courses**: [courses.nasirnesirli.com](https://courses.nasirnesirli.com)
-- **RSS Feed**: [Subscribe to updates](/en/index.xml)
-
-## Who I Work With
-
-✅ **Business owners** - Looking for integrated ERP/HRMS/LMS solutions
-
-✅ **Laboratory managers** - Needing better operational systems
-
-✅ **Reagent manufacturing/distribution companies** - Wanting digital transformation
-
-✅ **Frappe developers** - Ecosystem consultants
-
-✅ **Medical institutions** - Researching business management systems
-
-
-## Why Quanta Tech?
-
-7+ years of laboratory management experience + modern business technology expertise = unique solutions.
-
-Not just technology, but solutions that understand real business needs.
-
----
-
-*Ready to discuss your enterprise's digital transformation? Contact us and let's discover how we can help.*
+- **ORCID**: [orcid.org/0009-0005-3038-7781](https://orcid.org/0009-0005-3038-7781)
+- **CV**: [Download PDF](https://docs.google.com/document/d/1hQe_XT2gL93tVWDnD69N9Y4KvFFZxavmcwlfpC3Si30/export?format=pdf)

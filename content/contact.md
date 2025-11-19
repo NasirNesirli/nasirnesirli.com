@@ -1,40 +1,11 @@
 ---
-title: "Əlaqə"
-description: "Nasir Nəsirli ilə əlaqə saxlayın - Quanta Tech həlləri, Frappe implementasiyası və laboratoriya rəqəmsallaşdırma üçün"
+title: "Mənimlə Əlaqə - AMR Genomika Əməkdaşlıq"
+description: "Hesablama mikrobiologiyası əməkdaşlığı, AMR genomika tədqiqat layihələri, maşın öyrənmə tərəfdaşlıq və bioinformatika konsultasiya imkanları üçün əlaqə saxlayın."
 ---
 
-Rəqəmsal transformasiya yolunda müəssisəniz üçün etibarlı tərəfdaş axtarırsınız? Frappe ekosistemi (ERPNext, HRMS, LMS, Insights) həlləri, xüsusi laboratoriya sistemləri və ya biznes idarəetməsi həlləri haqqında danışmaq istəyirsiniz?
+Hesablama mikrobiologiyası, AMR genomika və maşın öyrənməsi sahələrində əməkdaşlıq, tədqiqat layihələri və uzaqdan iş imkanları üçün açığam.
 
-Quanta Tech kimi, biz müəssisələrə tam biznes idarəetmə həlləri təqdim edirik və xüsusilə də reagent istehsal-distribusiya şirkətləri və klinik laboratoriyalarda təcrübəmiz var.
-
-## Necə Kömək Edə Bilərik
-
-### Frappe Ekosistemi Həlləri
-- **ERPNext**: Tam biznes idarəetməsi (maliyyə, inventar, satış, HR)
-- **HRMS**: İnsan resursları və əmək haqqı sistemləri
-- **LMS**: Korporativ təlim platformaları
-- **Insights**: Biznes analitikası
-
-### Quraşdırma, Tətbiq və Dəstək
-- Biznes analizi və sistem dizaynı
-- Data miqrasiyası və inteqrasiya
-- İstifadəçi təlimi və dəyişikliyin idarə olunması
-- 24/7 texniki dəstək
-
-### İxtisaslaşdığımız Sektorlar
-- Reagent istehsal və distribusiya şirkətləri
-- Klinik laboratoriyalar və tibbi müəssisələr
-- Ümumi biznes həlləri (bütün sahələr)
-
-## Əlaqə Saxlayın
-
-### Biznes Sorğuları
-[sales@quanta.az](mailto:sales@quanta.az)
-
-### Şəxsi Əlaqə
-[hello@nasirnesirli.com](mailto:hello@nasirnesirli.com)
-
-### Əlaqə Forması
+## Əlaqə Forması
 
 <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/az/contact/success/">
   <p style="display: none;">
@@ -64,32 +35,10 @@ Quanta Tech kimi, biz müəssisələrə tam biznes idarəetmə həlləri təqdim
   <button type="submit" style="background-color: #007acc; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 4px; cursor: pointer; font-size: 1rem;">Mesaj Göndər</button>
 </form>
 
-## Sosial Şəbəkələr və Məlumat
+## Əlaqə
 
-- **Quanta Tech**: [quanta.az](https://quanta.az)
+- **E-poçt**: [nasir.nesirli@gmail.com](mailto:nasir.nesirli@gmail.com)
 - **LinkedIn**: [linkedin.com/in/nasirnesirli](https://www.linkedin.com/in/nasirnesirli/)
 - **GitHub**: [github.com/NasirNesirli](https://github.com/NasirNesirli)
-- **Kurslar**: [courses.nasirnesirli.com](https://courses.nasirnesirli.com)
-- **RSS Feed**: [Yeniləmələrə abunə olun](/az/index.xml)
-
-## Kimlərlə İşləyirəm
-
-✅ **Müəssisə sahibləri** - İnteqrasiya edilmiş ERP/HRMS/LMS həlləri axtaranlar
-
-✅ **Laboratoriya menecerləri** - Daha yaxşı əməliyyat sistemlərinə ehtiyac duyanlar
-
-✅ **Reagent istehsal/distribusiya şirkətləri** - Rəqəmsal transformasiya istəyənlər
-
-✅ **Frappe developers** - Ekosistem konsultantları
-
-✅ **Tibb müəssisələri** - Biznes idarəetmə sistemi araşdıranlar
-
-## Niyə Quanta Tech?
-
-7+ illik laboratoriya idarəetmə təcrübəsi + müasir biznes texnologiyaları ekspertizası = unikal həllər.
-
-Sadəcə texnologiya deyil, real biznes ehtiyaclarını başa düşən həllər.
-
----
-
-*Müəssisənizin rəqəmsal transformasiyası haqqında danışmağa hazırsınız? Bizimlə əlaqə saxlayın və necə kömək edə biləcəyimizi kəşf edək.*
+- **ORCID**: [orcid.org/0009-0005-3038-7781](https://orcid.org/0009-0005-3038-7781)
+- **CV**: [PDF Yüklə](https://docs.google.com/document/d/1hQe_XT2gL93tVWDnD69N9Y4KvFFZxavmcwlfpC3Si30/export?format=pdf)

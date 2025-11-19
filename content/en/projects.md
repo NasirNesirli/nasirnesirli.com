@@ -1,191 +1,42 @@
 ---
-title: "Projects"
-description: "Current and future projects by Nasir Nasirli - Quanta Tech, Genolab and Frappe ecosystem solutions"
+title: "AMR Genomics & ML Projects"
+description: "Explore my computational microbiology projects: AMR-BERT pipeline, Nextflow WGS workflows, automated genomic analysis tools, and ML-based pathogen classification systems."
 ---
 
-## Quanta Tech: Frappe Ecosystem Solutions
+🔬 **AMR-BERT Pipeline**
 
-**Status**: Active business
+*(In development – expected Q1 2026)*
 
-**Tech Stack**: Frappe Framework, ERPNext, Python, JavaScript, MariaDB
+End-to-end AMR prediction system combining Nextflow, assembly, QC, CARD, and DNABERT2 classification.
 
-[Quanta Tech](https://quanta.az) leverages the power of the Frappe ecosystem to provide comprehensive business management solutions to enterprises.
-
-### Solutions We Offer
-
-**ERPNext Implementation**
-- Complete business management (finance, inventory, sales, procurement, HR)
-- Custom modularization and integration
-- Data migration and system transition
-
-**HRMS Solutions**
-- Modern human resources management
-- Payroll and compensation systems
-- Performance and development tracking
-
-**LMS Platforms**
-- Corporate training systems
-- Knowledge management and certificate management
-- Interactive course creation and tracking
-
-**Insights & Analytics**
-- Business and data analytics
-- Real-time reporting and dashboard
-- Predictive analytics and forecasting
-
-### Service Approach
-
-**Installation** → **Implementation** → **Training** → **Continuous Support**
-
-- Business process analysis and roadmap creation
-- System configuration and customization
-- User training
-- 24/7 technical support and system updates
-
-### Sectors We Specialize In
-
-- **General business solutions**: Standard ERP/HRMS/LMS/Insights for all industries
-- **Reagent manufacturing and distribution**: Custom modules and workflows
-- **Medical institutions**: Regulatory compliance and quality management
+**Tech:** Python, PyTorch, DNABERT2, ESM2, Nextflow, Docker
 
 ---
 
-## Genolab: Clinical Laboratory ERP Modules
+🧬 **Automated AMR Gene Detection Pipeline**
 
-**Status**: Active development within Quanta Tech framework
+*(Completed)*
 
-**Tech Stack**: Frappe Framework, Python, FastAPI, MariaDB
+SPAdes + Prokka + Abricate + custom QC modules; deployed with Docker and automated reporting.
 
-As a specialized project of Quanta Tech, **Genolab** is specialized Frappe modules integrated into ERPNext for clinical laboratories.
-
-### Key Features
-
-**Reagent Tracking and Inventory**
-- Reagent lot tracking and expiration dates
-- Automatic reorder thresholds
-- Temperature and storage condition monitoring
-- Supplier information and price tracking
-
-**Quality Control and Compliance**
-- QC material planning and tracking
-- Calibration and validation registration
-- Audit trail and documentation
-- Compliance with GMP and laboratory standards
-
-**Laboratory Reporting and Analytics**
-- Automatic processing of test results
-- Statistical quality control (SQC)
-- Real-time performance monitoring
-- Customer reporting systems
-
-**ML-based AMR Monitoring Panel (Premium)**
-- Antimicrobial resistance trend analysis
-- Early warning with predictive models
-- Clinical decision support system
-- Epidemiological reports
-
-### Business Model
-
-- **Core modules**: Open source and accessible to everyone
-- **Premium features**: AMR analytics, ML models
-- **Enterprise support**: Custom integration and 24/7 support
-
-### Different Approach
-
-Unlike general LIS systems, Genolab is created based on actual laboratory experience:
-- Understands real-world laboratory challenges
-- Supports practical workflows
-- Responds to laboratory managers' needs
+**Tech:** SPAdes, Prokka, Abricate, Docker, Python, Bash
 
 ---
 
-## Academic and Research Activity
+🧪 **Nextflow WGS Processing Workflow**
 
-**University**: University of Birmingham (MSc Bioinformatics, 2024-2025)
+*(In progress)*
 
-### Master's Thesis
+Modular DSL2 pipeline for bacterial assembly, annotation, AMR identification, phylogenomics.
 
-**"Interpretable Machine Learning for Antimicrobial Resistance Prediction in Klebsiella pneumoniae"**
-
-- Interpretable AI models for clinical AMR prediction
-- Balance between machine learning accuracy and clinical understanding
-- Validation on real-world clinical data
-
-### Future Research Directions
-
-- Antimicrobial resistance prediction
-- ML applications in clinical microbiology
-- Laboratory operations optimization
+**Tech:** Nextflow, nf-core, Docker, Prokka, FastTree, SNP-sites
 
 ---
 
-## Training and Course Activity
+🧠 **ML-Based Pathogen Classification from Reads**
 
-**Platform**: [courses.nasirnesirli.com](https://courses.nasirnesirli.com)
+*(In progress)*
 
-### Courses I Offer
+Binary and multi-class models trained on k-merized reads to classify bacterial species.
 
-**Clinical Laboratory Management**
-- Laboratory operation processes
-- Quality system management
-- Equipment calibration and validation
-
-**Microbiology and Infection Control**
-- Clinical microbiology fundamentals
-- Antimicrobial resistance concepts
-- Infection control strategies
-
-**Bioinformatics and Technology**
-- Practical bioinformatics tools
-- Python programming for laboratory
-- Machine learning clinical applications
-
-**Business Technologies**
-- ERP systems for laboratory
-- Digital transformation strategies
-- Frappe Framework and ERPNext
-
-### Teaching Philosophy
-
-Transferring practical knowledge based on real-world experience. Combining theoretical knowledge with practical application.
-
----
-
-## Future Projects
-
-### Open Source Contributions
-
-**Frappe Ecosystem**
-- Sharing laboratory sector-specific modules
-- Community-based improvements
-- Documentation and training materials
-
-**Laboratory Informatics Tools**
-- Open source laboratory support utilities
-- API integration libraries
-- Calibration and QC tools
-
-### Consulting and Mentorship
-
-- **Laboratory digitalization** consulting
-- **Frappe/ERPNext implementation** support
-- **Mentorship for young professionals** in bioinformatics and laboratory technology fields
-
----
-
-## Contact and Collaboration
-
-**Collaboration I'm Looking For:**
-- Enterprises needing laboratory management system
-- Digital transformation projects in reagent sector
-- Frappe ecosystem developers
-- Bioinformatics and clinical research projects
-
-**Contact:**
-- Email: sales@quanta.az | hello@nasirnesirli.com
-- LinkedIn: [linkedin.com/in/nasirnesirli](https://linkedin.com/in/nasirnesirli)
-- GitHub: [github.com/NasirNesirli](https://github.com/NasirNesirli)
-
----
-
-*To learn more about my projects or discuss collaboration opportunities, [get in touch](/en/contact/)*
+**Tech:** PyTorch, scikit-learn, FastAPI

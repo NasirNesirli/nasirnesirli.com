@@ -1,96 +1,27 @@
 ---
-title: "About Me"
-description: "Detailed information about Nasir Nasirli - clinical laboratory specialist, Quanta Tech founder and Frappe ecosystem expert"
+title: "Computational Microbiologist & Genomics Expert"
+description: "Learn about my background in computational microbiology, 10+ years clinical experience, Birmingham University bioinformatics degree, and current AMR genomics research and ML model development."
 ---
 
-## Who I Am
+I am a clinical microbiologist and bioinformatics engineer focused on genomics, antimicrobial resistance, and machine learning.
 
-I have 7+ years of experience in clinical laboratory and microbiology fields. I hold a Master's degree in Bioinformatics from the University of Birmingham (United Kingdom) and a Bachelor's degree in Microbiology from Azerbaijan Medical University.
+For more than a decade, I worked in clinical laboratory leadership - designing diagnostic laboratories, implementing quality systems, training teams, and improving microbiology workflows at scale. This experience gave me a deep understanding of pathogens, AMR mechanisms, and the realities of diagnostic data.
 
-My main advantage is combining my deep experience in laboratory field with modern business technologies.
+After completing my Master's degree in Bioinformatics at the University of Birmingham, I focused on computational microbiology, where I combine my clinical background with software, genomics, and ML engineering.
 
 ## Currently
 
-**Clinical Microbiology Project Manager (Spektr Med)**
-I lead a project for establishing multiple microbiology laboratories with BioMérieux equipment in Azerbaijan. This project aims to bring the country's laboratory infrastructure to modern standards.
+**Oct 2025 - Present | Clinical Microbiology Laboratory Project & Computational Research**  
+*Baku, Azerbaijan*
 
-**Quanta Tech Founder**
-I am the founder of a company that provides business management solutions based on the Frappe ecosystem (ERPNext, HRMS, LMS, Insights).
+Simultaneously leading multi-site clinical microbiology laboratory setup (laboratory design, BioMérieux instrumentation, staff training) and developing computational microbiology tools. This dual role allows me to bridge practical laboratory challenges with AI/ML solutions. I also teach courses on laboratory science and bioinformatics through [courses.nasirnesirli.com](https://courses.nasirnesirli.com).
 
+## My current interests include:
 
-## Quanta Tech: Our Activities
+- AMR gene prediction using transformer models (DNABERT2, ESM2)
+- End-to-end genomic pipelines (Nextflow, Docker, nf-core)
+- Sequencing-based clinical diagnostics
+- Pathogen classification from raw reads
+- Machine learning for genomic epidemiology
 
-As [**Quanta Tech**](https://quanta.az), we operate in the field of installation, implementation and support of Frappe products:
-
-**Solutions we provide:**
-- **ERPNext**: Complete business management (finance, inventory, sales, procurement, HR)
-- **HRMS**: Modern human resources management and payroll system
-- **LMS**: Corporate training and knowledge management platforms
-- **Insights**: Business analytics and data-driven decision-making system
-
-**Our service approach:**
-Installation → Implementation → Training → Continuous Support
-
-**Sectors we specialize in:**
-- General business solutions (all industries)
-- Reagent manufacturing and distribution companies
-- Clinical laboratories and medical institutions
-
-## Genolab: Laboratory ERP Project
-
-**Genolab**, which we are developing within the Quanta Tech framework, is a specialized module for clinical laboratories:
-
-- Reagent tracking and inventory management
-- Quality control and compliance workflows
-- Laboratory reporting and analytics
-- ML-based antimicrobial resistance (AMR) monitoring panel
-
-In addition to the above activities, I also teach courses on clinical laboratory, microbiology, bioinformatics and the intersection of technology and healthcare through [courses.nasirnesirli.com](https://courses.nasirnesirli.com).
-
-## My Technical Skills
-
-- **Programming**: Python, JavaScript, FastAPI
-- **Platform**: Frappe Framework, ERPNext ecosystem
-- **Database**: MariaDB, MySQL
-- **Bioinformatics**: Microbial genomics, machine learning, clinical applications
-- **Laboratory**: BioMérieux systems, VITEK, quality control
-
-## My Experience
-
-**2024-present**: Quanta Tech Founder
-
-**2025-present**: Spektr Med - Microbiology Project Manager
-
-**2022-2023**: Medikus Clinic - Laboratory Project Manager
-
-**2018-2022**: Medikus Clinic - Clinical Laboratory Manager
-
-**2014-2017**: Medican Hospital - Clinical Laboratory Manager
-
-**2011-2013**: Ministry of Defense - Clinical Microbiology and Epidemiology Specialist
-
-## My Different Approach
-
-Unlike general ERP consultants, I provide not only technology but also field expertise:
-
-✅ **Real laboratory experience**: 7+ years of practical laboratory management
-
-✅ **Technical knowledge**: Python and Frappe Framework expert
-
-✅ **Bioinformatics experience**: ML and clinical data analysis
-
-✅ **Business perspective**: As a former laboratory manager, I deeply understand operational challenges
-
-## Contact
-
-**Email**: sales@quanta.az | hello@nasirnesirli.com
-
-**Website**: [quanta.az](https://quanta.az) | [nasirnesirli.com](https://nasirnesirli.com)
-
-**GitHub**: [github.com/NasirNesirli](https://github.com/NasirNesirli)
-
-**LinkedIn**: [linkedin.com/in/nasirnesirli](https://linkedin.com/in/nasirnesirli)
-
-## My Goal
-
-To help enterprises with digital transformation through the Frappe ecosystem and create innovative solutions especially in clinical laboratories and reagent sector.
+I aim to build tools that make microbial genomics faster, more accurate, and globally scalable.
