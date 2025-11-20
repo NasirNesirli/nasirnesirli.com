@@ -1,4 +1,4 @@
-{{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+{{- if or hugo.IsProduction (eq site.Params.env "production") }}
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K32VK4QT"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

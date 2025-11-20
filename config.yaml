@@ -121,6 +121,9 @@ languages:
           weight: 40
 
 params:
+  # Environment setting for production features
+  env: "production"
+  
   # Footer customization
   footer:
     text: ""
