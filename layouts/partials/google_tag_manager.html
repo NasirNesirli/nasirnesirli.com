@@ -8,7 +8,7 @@
 {{- $gtmID := .context.Site.Params.tracking.googleTagManager.id -}}
 {{- $type := .type | default "head" -}}
 
-{{- if and $gtmID (or (.context.Site.IsServer) (eq .context.Site.Params.env "production")) }}
+{{- if and $gtmID (eq .context.Site.Params.env "production") }}
   {{- if eq $type "head" }}
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
