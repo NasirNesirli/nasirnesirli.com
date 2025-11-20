@@ -178,6 +178,11 @@ outputs:
     - JSON
 
 # Markdown settings
+# Google Analytics
+services:
+  googleAnalytics:
+    ID: "G-LB4W2B5GWY"
+
 markup:
   goldmark:
     renderer:
