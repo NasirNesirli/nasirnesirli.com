@@ -21,7 +21,8 @@
 {{- else }}
 <body id="top">
 {{- end }}
-{{ partialCached "google_tag_manager_noscript.html" . -}}
+{{- /* Google Tag Manager (noscript) - Must be immediately after <body> tag */ -}}
+{{- partial "google_tag_manager.html" (dict "context" . "type" "body") }}
     {{ partialCached "header.html" . .Page .Lang .RelPermalink -}}
     <main class="main">
         {{- block "main" . }}{{ end }}

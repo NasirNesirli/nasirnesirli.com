@@ -1,6 +1,2 @@
-{{- if .Site.Params.googleTagManagerID }}
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ .Site.Params.googleTagManagerID }}"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-{{- end }}
+{{- /* This file is deprecated. Use google_tag_manager.html with type parameter instead */ -}}
+{{- partial "google_tag_manager.html" (dict "context" . "type" "body") }}

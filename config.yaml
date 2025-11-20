@@ -124,9 +124,12 @@ params:
   # Environment setting for production features
   env: "production"
   
-  # Google Tag Manager and Analytics
-  googleTagManagerID: "GTM-K32VK4QT"
-  googleAnalyticsID: "G-LB4W2B5GWY"
+  # Tracking configuration
+  tracking:
+    googleTagManager:
+      id: "GTM-K32VK4QT"
+    googleAnalytics:
+      id: "G-LB4W2B5GWY"
   
   # Footer customization
   footer:
