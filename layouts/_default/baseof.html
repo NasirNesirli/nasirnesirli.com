@@ -21,6 +21,7 @@
 {{- else }}
 <body id="top">
 {{- end }}
+{{ partialCached "google_tag_manager_noscript.html" . -}}
     {{ partialCached "header.html" . .Page .Lang .RelPermalink -}}
     <main class="main">
         {{- block "main" . }}{{ end }}
